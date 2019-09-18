@@ -9,8 +9,15 @@
     <input type="search" placeholder="Search GIFs!" name="search"><button type="submit">Search</button>
 </form>
 <div id="displaying">
+
+  {% if gifDisplay %}
     {% for gif in gifDisplay %}
         {% include 'gif.html' %}<br /><br />
     {% endfor %}
+
+  {% else %}
+  NO GIF TO DISPLAY
+  {% endif %}
+
 </div>
 {% endblock %}
