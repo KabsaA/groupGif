@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Show Gifs
+{% endblock %}
+
+{% block content %}
+    {% if index %}
+        Displaying:
+        <ul>
+            {% for gif in gifJson %}
+                <li>{{ include 'gif.html' }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+    {% endif %}
+{% endblock %}
+
+<ul>
+    {% for gif in gifJson %}
+        <li>{{ include 'gif.html' }}</li>
+    {% endfor %}
+</ul>
+
+apikey = "F9X97G66FSHO"
+  limit = 8
+  q = "excited" # test search

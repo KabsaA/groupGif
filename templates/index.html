@@ -1,0 +1,16 @@
+<!-- templates/index.html-->
+<!DOCTYPE html>
+<html>
+{% extends 'base.html' %}
+{% block content %}
+<h1> {{ title }}
+  <title>GIF Search!</title>
+<form action="/">
+    <input type="search" placeholder="Search GIFs!" name="search"><button type="submit">Search</button>
+</form>
+<div id="displaying">
+    {% for gif in gifDisplay %}
+        {% include 'gif.html' %}<br /><br />
+    {% endfor %}
+</div>
+{% endblock %}
