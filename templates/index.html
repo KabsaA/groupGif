@@ -4,9 +4,11 @@
 {% extends 'base.html' %}
 {% block content %}
 <h1> {{ title }}
-  <title>GIF Search!</title>
+  <title>GIF Search!</title> <!-- titling web page -->
+  
 <form action="/">
-    <input type="search" placeholder="Search GIFs!" name="search"><button type="submit">Search</button>
+    <input type="search" placeholder="Search GIFs!" name="search"><button style = background-color:red; type="submit">Search</button>
+    
 </form>
 <div id="displaying">
   {% if gifDisplay %} <!-- conditional to represent True -->
