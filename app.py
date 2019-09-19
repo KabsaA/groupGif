@@ -18,7 +18,6 @@ def index():
     params = {'q': query,
         'key': 'F9X97G66FSHO',
         'limit': '8'}
-
     r = requests.get("https://api.tenor.com/v1/search", params=params)
      # TODO: Use the '.json()' function to get the JSON of the returned response
     gifJson = r.json()
