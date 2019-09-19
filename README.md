@@ -1,4 +1,4 @@
-# How to Use This Starter Code
+# This is Our Gif Search Project
 
 This Code is Brought to you by Kabsa and Kaniet:
 
