@@ -4,6 +4,20 @@ body {
   background-color: purple;  /* changin background color to purple */
 }
 h1 {
-  color: : green;
+  color: lawngreen;
   text-align: center; /* changin text color and alignment to green and center */
+  font-size: 60px
+}
+
+  .tenor-gif-embed { 
+    margin-left: auto;
+    margin-right: auto;
+  }
+button{
+    width: 120px;
+    height:40px;
+}
+input{
+    height: 300px;
+    width: 500px;
 }
