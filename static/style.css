@@ -1,0 +1,14 @@
+
+
+body {
+  background-color: purple;  /* changin background color to purple */
+}
+h1 {
+  color: green;
+  text-align: center; /* changin text color and alignment to green and center */
+}
+
+  .tenor-gif-embed {
+    margin-left: auto;
+    margin-right: auto;
+  }

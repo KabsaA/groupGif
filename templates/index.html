@@ -9,13 +9,12 @@
     <input type="search" placeholder="Search GIFs!" name="search"><button type="submit">Search</button>
 </form>
 <div id="displaying">
-
-  {% if gifDisplay %}
-    {% for gif in gifDisplay %}
-        {% include 'gif.html' %}<br /><br />
+  {% if gifDisplay %} <!-- conditional to represent True -->
+    {% for gif in gifDisplay %} <!-- for loop executed to display gifs -->
+        {% include 'gif.html' %}<br /><br /> <!-- html file to display the gifs -->
     {% endfor %}
 
-  {% else %}
+  {% else %} <!-- if there are no gifs this text will show-->
   NO GIF TO DISPLAY
   {% endif %}
 
